@@ -1,0 +1,15 @@
+# Create a numerical vector 
+a<-vector(mode = "numeric")
+
+# Add values - 1,2,3,4,5,8,6,2,11
+a <- c(1,2,3,4,5,8,6,2,11)
+
+#Create a 3x3 matrix
+a<- matrix(a,3,3)
+
+#Output
+> a
+     [,1] [,2] [,3]
+[1,]    1    4    6
+[2,]    2    5    2
+[3,]    3    8   11
