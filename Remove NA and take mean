@@ -1,0 +1,9 @@
+#Vector 
+a<-c(NA,11:15,NA,NA) 
+
+# Remove NA and calculate mean
+mean(a,na.rm=T)
+
+# Output
+> mean(a,na.rm=T)
+[1] 13
