@@ -1,0 +1,13 @@
+# Create a char array
+x <-c("apple","banana","grape")
+
+#Replace first a with $
+`substring<-`(x,grep("a",x),length(x),"$")
+
+
+#Output - 1
+> x <-c("apple","banana","grape")
+
+#Output - 2
+> `substring<-`(x,grep("a",x),length(x),"$")
+[1] "$pple"  "b$nana" "gr$pe" 
